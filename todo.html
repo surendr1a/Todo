@@ -1,0 +1,32 @@
+<!-- todo.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <script src="todo.js"></script>
+
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-square">
+            <h1>Todo</h1>
+            <form id="todoForm" class="todo-form">
+                <input type="text" name="task" id="todo" placeholder="Write your today task" required>
+                <button type="button" onclick="addtask()">Add Task</button>
+            </form>
+        </div>
+        <!-- Todo List Component -->
+        <div id="todoList" class="todo-list">
+            <h2>Todo List</h2>
+            <div id="whaleContainer">
+                <!-- Task items will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

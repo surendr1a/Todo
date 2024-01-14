@@ -1,0 +1,16 @@
+/* styles.css */
+body{
+    background-image: url(./img/bg.jpg);
+}
+.delete-button {
+    background-color: #e74c3c; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
